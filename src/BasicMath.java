@@ -2,8 +2,8 @@ public class BasicMath {
 
     //Question 1
 //    static void printdigit(int num ){
-    //agar mere num ki value ==0 ruko
-    //agar mere num ki value !=0 processing krte rho
+//    agar mere num ki value ==0 ruko
+//    agar mere num ki value !=0 processing krte rho
 //        while (num != 0){
 //            int digit=num%10;
 //            System.out.println(digit);
@@ -39,28 +39,39 @@ public class BasicMath {
 
 
     //Question 4
-static int reverseNum(int num){
-    int revNum=0;
-    while (num!=0){
-        int digit=num%10;
-        revNum=revNum*10+digit;
-        num=num/10;
-    }
-    return revNum;
-}
+//static int reverseNum(int num){
+//    int revNum=0;
+//    while (num!=0){
+//        int digit=num%10;
+//        revNum=revNum*10+digit;
+//        num=num/10;
+//    }
+//    return revNum;
+//}
 
     //Question 5 Palindrome number
-    static boolean palindrome(int num) {
-        int originalnumber = num;
-        int reversnumber = reverseNum(num);
-        if (originalnumber == reversnumber) {
-            System.out.println("it is a Plaindrome");
-            return true;
-        } else {
-            System.out.println("It is no Plaindrome");
-            return false;
-        }
+//    static boolean palindrome(int num) {
+//        int originalnumber = num;
+//        int reversnumber = reverseNum(num);
+//        if (originalnumber == reversnumber) {
+//            System.out.println("it is a Plaindrome");
+//            return true;
+//        } else {
+//            System.out.println("It is no Plaindrome");
+//            return false;
+//        }
+//    }
+
+    //Question 6 gcf yani hcf of number
+    static int getGcd(int a,int b){
+        while(b!=0){
+            int temp=b;
+                b=a%b;
+                 a=temp;
     }
+                 int ans=a;
+                return ans;
+}
 
     public static void main(String[] args) {
 
@@ -76,13 +87,16 @@ static int reverseNum(int num){
 //        int sum=sumdigit(num);
 //        System.out.println(sum);
 
-//Question 4 Reverse a number
+////Question 4 Reverse a number
 //        int num=543897;
 //        int Result=reverseNum(num);
 //        System.out.println("The Reverse Number is: " + Result);
 
 //        /Question 5 Plaindrome number
-boolean ans=palindrome(1221);
-        System.out.println(ans);
-    }
-}
+//boolean ans=palindrome(1221);
+//        System.out.println(ans);
+
+        //Question 6 Gcd yani hcf
+        System.out.println(getGcd(18,12));
+//    }
+    }}
