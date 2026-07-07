@@ -45,9 +45,5 @@ public class Stringbasic {
             String n1="TITLE";
             String n2= n1.replace("T","F");
             System.out.println(n2);
-
-
-
-
     }
 }
