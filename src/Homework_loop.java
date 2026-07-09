@@ -32,13 +32,13 @@ public class Homework_loop {
 //                }
 
                 //Question 6
-//        for (int i=0;i<=100;i++)
-//            if (i%2==0)
-//                System.out.println(i);
-        //Question 7
-//        int n=0;
-//        for (int i=0;i<=20;i++)
-//            n=n+i;
+        for (int i=0;i<=100;i++)
+            if (i%2==0)
+                System.out.println(i);
+//        Question 7
+        int n=0;
+        for (int i=0;i<=20;i++)
+            n=n+i;
 //        System.out.println(n);
        //Question 8
 //       for (int i=50;i<=100;i++)
