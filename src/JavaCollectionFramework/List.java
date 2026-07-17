@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class List {
     static void main() {
-        /*   //List or Collection->interface
+      //List or Collection->interface
 
         //Array ->concrete class
         ArrayList<Integer>  list = new ArrayList<>();
@@ -47,7 +47,7 @@ public class List {
 
         while (iterator.hasNext()){
             System.out.println("Element :"+ iterator.next());
-        }  */
+        }
         ArrayList<Integer> list3=new ArrayList<>();
         list3.add(10);
         list3.add(11);
@@ -71,6 +71,15 @@ public class List {
         //Sort
         Collections.sort(list3);
         System.out.println(list3);
+
+        //clone
+        ArrayList<Integer> newList= (ArrayList<Integer>)list.clone();
+        System.out.println(newList);
+
+
+        //ensueCopy
+        ArrayList<Integer> newArr= new ArrayList<Integer>();
+        newArr.ensureCapacity(100);
 
 
 
