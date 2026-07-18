@@ -1,18 +1,14 @@
 package JavaCollectionFramework;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
+import java.util.*;
 
-public class List {
+public class Stcak {
     static void main() {
-      //List or Collection->interface
+    //List or Collection->interface
+    //Array ->concrete class
+    Stack<Integer> list = new Stack<>();
 
-        //Array ->concrete class
-        ArrayList<Integer>  list = new ArrayList<>();
-
-        //add
+    //add
         list.add(10);
         list.add(20);
         list.add(30);
@@ -20,13 +16,13 @@ public class List {
         list.add(50);
         System.out.println(list);
 
-        //remove
+    //remove
         list.remove(0);
         list.remove(2);
         System.out.println(list);
 
-        //aAll
-        ArrayList<Integer> list1=new ArrayList<>();
+    //aAll
+    Stack<Integer> list1 = new Stack<>();
         list1.add(21);
         list1.add(22);
         list1.add(23);
@@ -38,51 +34,61 @@ public class List {
 
         System.out.println(list1.size());
 
-        //clear
+    //clear
         list1.clear();
         System.out.println(list1);
 
-        //i want totraverse list using iterator
-        Iterator<Integer> iterator=list.iterator();
+    //i want totraverse list using iterator
+    Iterator<Integer> iterator = list.iterator();
 
-        while (iterator.hasNext()){
-            System.out.println("Element :"+ iterator.next());
-        }
-        ArrayList<Integer> list3=new ArrayList<>();
+        while(iterator.hasNext())
+
+    {
+        System.out.println("Element :" + iterator.next());
+    }
+
+    Stack<Integer> list3 = new Stack<>();
         list3.add(10);
         list3.add(11);
         list3.add(12);
         list3.add(13);
-        System.out.println("The array is : " + list3);
+        System.out.println("The array is : "+list3);
         System.out.println(list3.get(2));
         list3.set(3,115);
         System.out.println(list3);
 
-        //contains
+    //contains
         System.out.println(list3.contains(11234));
 
-        Collection<Integer> collection=new ArrayList<>();
+    Collection<Integer> collection = new Stack<>();
         collection.add(45);
         collection.add(57);
         collection.add(23);
         collection.add(78);
-        System.out.println("The collestion is" + collection);
+        System.out.println("The collestion is"+collection);
 
-        //Sort
+    //Sort
         Collections.sort(list3);
         System.out.println(list3);
 
-        //clone
-        ArrayList<Integer> newList= (ArrayList<Integer>)list.clone();
+    //clone
+    ArrayList<Integer> newList = (ArrayList<Integer>) list.clone();
         System.out.println(newList);
 
 
-        //ensueCopy
-        ArrayList<Integer> newArr= new ArrayList<Integer>();
+    //ensueCopy
+    Stack<Integer> newArr = new Stack<Integer>();
         newArr.ensureCapacity(100);
 
+        //push
+        //pop
+        //peek
+        //search
+        //empty
 
+
+
+}
 
     }
 
-}
