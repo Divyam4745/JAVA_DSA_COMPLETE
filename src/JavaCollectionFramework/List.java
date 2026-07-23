@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class List {
+public class List<I extends Number> {
     static void main() {
       //List or Collection->interface
 
