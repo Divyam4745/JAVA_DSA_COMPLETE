@@ -24,8 +24,9 @@ public class Practice_13 {
                     {4, 5, 6},
                     {7, 8, 9}
             };
-            List<Integer> ans = practic(arr);
-            System.out.println(ans);
 
+            List<Integer> ans = practic(arr);
+
+            System.out.println(ans);
     }
 }
