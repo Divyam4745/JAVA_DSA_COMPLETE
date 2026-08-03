@@ -14,10 +14,11 @@ public class LeetCode19 {
         }
         while (s<=e){
                 int mid=s+(e-s)/2;
-            if (arr[mid]<arr[n-1]){
+            if (arr[mid]<=arr[n-1]){
                 e=mid-1;
             }
             else {
+                //arr[mid]>arr[n-1]
                 ans=mid;
                 s=mid+1;
             }
