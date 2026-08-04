@@ -4,7 +4,6 @@ public class LeetCode19 {
 
     static  int pivoteelement(int  arr[])
     {
-
         int n= arr.length;
         int s=0;
         int e=n-1;
