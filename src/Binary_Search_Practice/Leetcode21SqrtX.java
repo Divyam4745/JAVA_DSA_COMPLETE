@@ -1,76 +1,48 @@
 package Binary_Search_Practice;
 
 public class Leetcode21SqrtX {
-    private static final double EPSILON = 1e-12;
+    static double sqrt(int x, int precision) {
 
-    public int mySqrt(int x) {
-        return floorSqrt(x);
-    }
+        int s = 0;
+        int e = x;
+        int ans = 0;
 
-    public static int floorSqrt(int x) {
-        validateNonNegative(x);
+        // Integer part using Binary Search
+        while (s <= e) {
 
-        if (x == 0 || x == 1) {
-            return x;
-        }
+            int mid = s + (e - s) / 2;
 
-        int start = 1;
-        int end = x / 2;
-        int answer = 1;
+            long square = (long) mid * mid;
 
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
+            if (square == x)
+                return mid;
 
-            if (mid <= x / mid) {
-                answer = mid;
-                start = mid + 1;
+            if (square < x) {
+                ans = mid;
+                s = mid + 1;
             } else {
-                end = mid - 1;
+                e = mid - 1;
             }
         }
 
-        return answer;
-    }
+        // Decimal part
+        double result = ans;
+        double factor = 0.1;
 
-    public static double sqrt(double x) {
-        validateNonNegative(x);
+        for (int i = 0; i < precision; i++) {
 
-        if (x == 0 || x == 1) {
-            return x;
-        }
-
-        double start = 0;
-        double end = Math.max(1.0, x);
-
-        while (end - start > EPSILON) {
-            double mid = start + (end - start) / 2;
-
-            if (mid <= x / mid) {
-                start = mid;
-            } else {
-                end = mid;
+            while ((result + factor) * (result + factor) <= x) {
+                result += factor;
             }
+
+            factor /= 10;
         }
 
-        return start + (end - start) / 2;
-    }
-
-    private static void validateNonNegative(int x) {
-        if (x < 0) {
-            throw new IllegalArgumentException("Square root is not defined for negative numbers");
-        }
-    }
-
-    private static void validateNonNegative(double x) {
-        if (Double.isNaN(x) || Double.isInfinite(x) || x < 0) {
-            throw new IllegalArgumentException("Square root is defined only for finite non-negative numbers");
-        }
+        return result;
     }
 
     public static void main(String[] args) {
-        int number = 56;
 
-        System.out.println("Floor sqrt: " + floorSqrt(number));
-        System.out.printf("Decimal sqrt: %.6f%n", sqrt(number));
+        System.out.println(sqrt(56, 5));
     }
 }
