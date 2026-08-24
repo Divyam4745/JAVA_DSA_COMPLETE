@@ -6,7 +6,6 @@ public class Leetcode_1 {
     if (n==0){
         return 1;
     }
-
     long ans = n* factroial(n-1);
     return  ans;
     }
