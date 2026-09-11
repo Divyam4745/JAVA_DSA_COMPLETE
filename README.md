@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0001-two-sum) |
+| [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 ## Binary Search
 |  |
 | ------- |
@@ -85,4 +86,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
+## Linked List
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
+## Two Pointers
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
