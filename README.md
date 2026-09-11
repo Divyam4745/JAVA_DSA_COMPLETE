@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 ## Binary Search
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
 | [3870-count-commas-in-range](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3870-count-commas-in-range) |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0065-valid-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0065-valid-number) |
 | [0097-interleaving-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0097-interleaving-string) |
 | [0940-distinct-subsequences-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0940-distinct-subsequences-ii) |
