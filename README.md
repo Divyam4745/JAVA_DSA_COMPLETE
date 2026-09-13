@@ -5,11 +5,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
+| [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
@@ -21,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
+| [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Array
@@ -65,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
+| [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 ## String
 |  |
 | ------- |
