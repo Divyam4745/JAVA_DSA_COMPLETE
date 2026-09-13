@@ -1,0 +1,38 @@
+class Solution {
+    public int numDecodings(String s) {
+
+        int n = s.length();
+
+        if (n == 0 || s.charAt(0) == '0') {
+            return 0;
+        }
+
+        // prev2 = dp[i-2]
+        // prev1 = dp[i-1]
+        int prev2 = 1;
+        int prev1 = 1;
+
+        for (int i = 1; i < n; i++) {
+
+            int current = 0;
+
+            // One digit
+            if (s.charAt(i) != '0') {
+                current += prev1;
+            }
+
+            // Two digits
+            int two = (s.charAt(i - 1) - '0') * 10
+                    + (s.charAt(i) - '0');
+
+            if (two >= 10 && two <= 26) {
+                current += prev2;
+            }
+
+            prev2 = prev1;
+            prev1 = current;
+        }
+
+        return prev1;
+    }
+}
