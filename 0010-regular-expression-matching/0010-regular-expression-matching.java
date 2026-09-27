@@ -1,51 +1,41 @@
 class Solution {
     public boolean isMatch(String s, String p) {
-        char[] sc = s.toCharArray();
-        char[] pc = p.toCharArray();
-        int m = sc.length;
-        int n = pc.length;
+        int m = s.length();
+        int n = p.length();
         
-        // We only need a 1D array of size n + 1 to store the previous row's state
-        boolean[] dp = new boolean[n + 1];
+        // dp[i] represents whether s[0..i-1] matches the pattern processed so far
+        boolean[] dp = new boolean[m + 1];
         
-        // Base case setting for i = m (when the string s is exhausted)
-        dp[n] = true; 
-        for (int j = n - 1; j >= 0; j--) {
-            // If we have a '*', we can skip the character and the '*' itself
-            if (j + 1 < n && pc[j + 1] == '*') {
-                dp[j] = dp[j + 2];
-            }
-        }
+        // Base case: an empty pattern matches an empty string
+        dp[0] = true;
         
-        // Bottom-up evaluation (from i = m - 1 down to 0)
-        for (int i = m - 1; i >= 0; i--) {
-            // 'next' represents dp[i+1][j+1] (the diagonal value) from the old row
-            boolean next = dp[n]; 
+        for (int j = 0; j < n; j++) {
+            char pChar = p.charAt(j);
+            boolean isStar = (j + 1 < n && p.charAt(j + 1) == '*');
             
-            // An empty pattern can never match a non-empty remaining string
-            dp[n] = false; 
-            
-            for (int j = n - 1; j >= 0; j--) {
-                // 'temp' caches the current dp[j] (which is effectively dp[i+1][j]) 
-                // before we overwrite it for the current row.
-                boolean temp = dp[j]; 
-                
-                boolean firstMatch = (pc[j] == sc[i] || pc[j] == '.');
-                
-                if (j + 1 < n && pc[j + 1] == '*') {
-                    // dp[j + 2] comes from the current row (already calculated in this loop)
-                    // temp comes from the previous row (i+1)
-                    dp[j] = dp[j + 2] || (firstMatch && temp);
-                } else {
-                    // 'next' comes from the diagonal (i+1, j+1)
-                    dp[j] = firstMatch && next;
+            if (isStar) {
+                // '*' means zero or more of the preceding character.
+                // 0 matches: dp[i] remains true if it was already true.
+                // 1+ matches: dp[i] becomes true if dp[i-1] is true and characters match.
+                // We iterate left-to-right so a successful match propagates forward.
+                for (int i = 1; i <= m; i++) {
+                    if (dp[i - 1] && (pChar == '.' || pChar == s.charAt(i - 1))) {
+                        dp[i] = true;
+                    }
                 }
-                
-                // Advance 'next' to act as the diagonal for the next column calculation
-                next = temp;
+                j++; // Skip the '*' character as it is processed as a pair
+            } else {
+                // Regular character exact match.
+                // We MUST iterate right-to-left to safely read the 'previous row' state 
+                // from dp[i-1] before we overwrite it.
+                for (int i = m; i >= 1; i--) {
+                    dp[i] = dp[i - 1] && (pChar == '.' || pChar == s.charAt(i - 1));
+                }
+                // An empty string cannot match a single, non-star character
+                dp[0] = false; 
             }
         }
         
-        return dp[0];
+        return dp[m];
     }
 }
