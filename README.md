@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
@@ -36,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0110-balanced-binary-tree) |
 | [0113-path-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0113-path-sum-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Array
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0023-merge-k-sorted-lists) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
@@ -202,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0020-valid-parentheses) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Bracket Sequences
 |  |
 | ------- |
