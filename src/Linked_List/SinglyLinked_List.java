@@ -39,5 +39,19 @@ public class SinglyLinked_List {
        //increase the size by 1
        size++;
    }
+    // INSERTATION AT THE END
+
+    public void insertattail(int data) {
+        Node newNode = new Node(data);
+        if (head == null && tail == null) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = tail;
+            tail = newNode;
+        }
+        //increase the size by 1
+        size++;
+    }
 
 }
