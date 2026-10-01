@@ -26,10 +26,18 @@ public class SinglyLinked_List {
    //INSERTATION .........
 
    // INSERTATION AT THE BEGINING
-//   public void insertathead(int data){
-//
-//   }
 
-
+   public void insertathead(int data) {
+       Node newNode = new Node(data);
+       if (head == null && tail == null) {
+           head = newNode;
+           tail = newNode;
+       } else {
+           newNode.next = head;
+           head = newNode;
+       }
+       //increase the size by 1
+       size++;
+   }
 
 }
