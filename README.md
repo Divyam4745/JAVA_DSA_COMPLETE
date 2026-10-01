@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0094-binary-tree-inorder-traversal) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
 | [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0110-balanced-binary-tree) |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0094-binary-tree-inorder-traversal) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
 | [0099-recover-binary-search-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0101-symmetric-tree) |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Bracket Sequences
 |  |
