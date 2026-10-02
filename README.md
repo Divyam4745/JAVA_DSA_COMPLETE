@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0518-coin-change-ii) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
+| [0128-longest-consecutive-sequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -250,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
