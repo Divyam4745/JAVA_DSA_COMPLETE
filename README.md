@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0010-regular-expression-matching) |
+| [0022-generate-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0053-maximum-subarray) |
 | [0091-decode-ways](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0010-regular-expression-matching) |
 | [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0038-count-and-say) |
 | [0065-valid-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0065-valid-number) |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0022-generate-parentheses) |
 | [0040-combination-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0040-combination-sum-ii) |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0090-subsets-ii) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0022-generate-parentheses) |
 ## Simulation
 |  |
 | ------- |
