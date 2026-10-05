@@ -54,4 +54,27 @@ public class SinglyLinked_List {
         size++;
     }
 
+    //INSERTION AT THE MIDDLE .......
+    public void insertatmiddle(int position,int data ){
+        if (position<1 || position>size+1){
+            //insertion is not possible at this time
+            System.out.println("insertion is not possible at this possition");
+            return;
+        }
+        if (position==1 ){
+            insertathead(data);
+            return;
+        }
+        if (position==size+1){
+            insertattail(data);
+            return;
+        }
+        // middle me kahi insert krna ho tb....
+        Node prevNode=head;
+        //move prevNode (position - 2) to reach at the exact position ....
+        for (int i=0;i<position-2;i++){
+            prevNode=prevNode.next;
+        }
+    }
+
 }
