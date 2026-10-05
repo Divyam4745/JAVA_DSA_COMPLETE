@@ -83,4 +83,13 @@ public class SinglyLinked_List {
         size++;
     }
 
+    //Traversal the singly linked list....
+    public void printlist(){
+        Node temp=head;
+        while (temp!=null){
+            System.out.println(temp.data);
+            temp=temp.next;
+        }
+    }
+
 }
