@@ -39,7 +39,7 @@ public class SinglyLinked_List {
        //increase the size by 1
        size++;
    }
-    // INSERTATION AT THE END
+    // INSERTATION AT THE END.........
 
     public void insertattail(int data) {
         Node newNode = new Node(data);
