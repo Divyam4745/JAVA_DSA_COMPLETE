@@ -75,6 +75,12 @@ public class SinglyLinked_List {
         for (int i=0;i<position-2;i++){
             prevNode=prevNode.next;
         }
+        Node newNode = new Node(data);
+        //update the value of this node
+        newNode.next=prevNode.next;
+        prevNode.next=newNode;
+        //increase the size
+        size++;
     }
 
 }
