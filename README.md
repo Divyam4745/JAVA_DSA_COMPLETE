@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0403-frog-jump) |
 | [0518-coin-change-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0518-coin-change-ii) |
 | [0704-binary-search](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0704-binary-search) |
 | [0835-image-overlap](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0835-image-overlap) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
+| [0233-number-of-digit-one](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0233-number-of-digit-one) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1401-circle-and-rectangle-overlapping) |
 | [3870-count-commas-in-range](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3870-count-commas-in-range) |
 ## Dynamic Programming
@@ -113,7 +115,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0132-palindrome-partitioning-ii) |
 | [0174-dungeon-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0198-house-robber) |
+| [0233-number-of-digit-one](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0233-number-of-digit-one) |
 | [0322-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0338-counting-bits) |
+| [0403-frog-jump](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0403-frog-jump) |
 | [0518-coin-change-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0678-valid-parenthesis-string) |
 | [0940-distinct-subsequences-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0940-distinct-subsequences-ii) |
@@ -168,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0090-subsets-ii) |
+| [0338-counting-bits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0338-counting-bits) |
 ## Linked List
 |  |
 | ------- |
@@ -225,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0010-regular-expression-matching) |
+| [0233-number-of-digit-one](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0233-number-of-digit-one) |
 ## Sorting
 |  |
 | ------- |
