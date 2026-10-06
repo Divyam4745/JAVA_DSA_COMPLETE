@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
+| [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Binary Search
 |  |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0097-interleaving-string) |
 | [0132-palindrome-partitioning-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0132-palindrome-partitioning-ii) |
+| [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [0678-valid-parenthesis-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0856-score-of-parentheses) |
 | [0940-distinct-subsequences-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0940-distinct-subsequences-ii) |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0090-subsets-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0090-subsets-ii) |
 | [0338-counting-bits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0338-counting-bits) |
+| [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 ## Linked List
 |  |
 | ------- |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
+| [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Geometry
 |  |
