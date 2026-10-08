@@ -87,9 +87,53 @@ public class SinglyLinked_List {
     public void printlist(){
         Node temp=head;
         while (temp!=null){
-            System.out.println(temp.data);
+            System.out.print(temp.data + "-->");
             temp=temp.next;
         }
+        System.out.println();
+    }
+
+    // UTILITY FUNCTION.....
+    public  int getSize(){
+        return size;
+    }
+    public boolean isEmpty(){
+        return head ==null;
+    }
+    public int gethead(){
+        if (head ==null){
+            return -1;
+        }else {
+            return head.data;
+        }
+    }
+    public int gettail(){
+        if (tail == null){
+            return -1;
+        }else{
+            return tail.data;
+        }
+    }
+
+   public static  void main(String[] args) {
+       SinglyLinked_List mylist;
+       mylist = new SinglyLinked_List();
+       if (mylist.isEmpty()){
+            System.out.println("List is empty");
+        }
+        System.out.println("Size of LL: "  + mylist.getSize());
+       mylist.insertathead(10);
+       mylist.printlist();
+
+       mylist.insertathead(20);
+       mylist.printlist();
+
+       mylist.insertathead(30);
+       mylist.printlist();
+
+       mylist.insertathead(40);
+       mylist.printlist();
+
     }
 
 }
