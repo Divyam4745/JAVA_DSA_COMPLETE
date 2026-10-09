@@ -83,6 +83,20 @@ public class SinglyLinked_List {
         size++;
     }
 
+    public int findPosition(int target) {
+        Node temp = head;
+        int position = 1;
+
+        while (temp != null) {
+            if (temp.data == target) {
+                return position;
+            } else {
+                temp = temp.next;
+                position++;
+            }
+        }
+            return -1;
+    }
     //Traversal the singly linked list....
     public void printlist(){
         Node temp=head;
@@ -143,8 +157,10 @@ public class SinglyLinked_List {
        mylist.insertatmiddle(5,201);
        mylist.printlist();
 
-       System.out.println(mylist.gethead());
-       System.out.println(mylist.gettail());
+       System.out.println("head data: "+mylist.gethead());
+       System.out.println("tail data: "+mylist.gettail());
+
+       System.out.println("Position of  200 is " + mylist.findPosition(100));
 
     }
 
