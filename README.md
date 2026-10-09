@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0894-all-possible-full-binary-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0894-all-possible-full-binary-trees) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0894-all-possible-full-binary-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0894-all-possible-full-binary-trees) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Array
 |  |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0403-frog-jump) |
 | [0518-coin-change-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0678-valid-parenthesis-string) |
+| [0894-all-possible-full-binary-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0894-all-possible-full-binary-trees) |
 | [0940-distinct-subsequences-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0940-distinct-subsequences-ii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3592-inverse-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3592-inverse-coin-change) |
@@ -246,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0010-regular-expression-matching) |
 | [0233-number-of-digit-one](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0233-number-of-digit-one) |
+| [0894-all-possible-full-binary-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0894-all-possible-full-binary-trees) |
 ## Sorting
 |  |
 | ------- |
@@ -318,4 +322,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Memoization
+|  |
+| ------- |
+| [0894-all-possible-full-binary-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0894-all-possible-full-binary-trees) |
 <!---LeetCode Topics End-->
