@@ -82,7 +82,7 @@ public class SinglyLinked_List {
         //increase the size
         size++;
     }
-
+         // Search operation in singly linked list
     public int findPosition(int target) {
         Node temp = head;
         int position = 1;
@@ -97,6 +97,26 @@ public class SinglyLinked_List {
         }
             return -1;
     }
+    // Replaced the position in the singly linked list
+    public int updaatedposition(int position, int newData){
+        if (position<1 && position>size+1){
+            System.out.println("Invaild position");
+            return-1;
+        }
+        Node temp=head;
+        for (int  i=1;i<position-1;i++){
+            temp=temp.next;
+        }
+        // ab mera data correct position pr hai to mai ab newData ko raplace kr dunga
+        temp.data=newData;
+        return -1;
+    }
+
+    public boolean updateValue(int oldvalue, int newValue){
+        //TODO
+        return false;
+    }
+
     //Traversal the singly linked list....
     public void printlist(){
         Node temp=head;
@@ -161,6 +181,9 @@ public class SinglyLinked_List {
        System.out.println("tail data: "+mylist.gettail());
 
        System.out.println("Position of  200 is " + mylist.findPosition(100));
+
+       mylist.updaatedposition(4,50);
+       mylist.printlist();
 
     }
 
