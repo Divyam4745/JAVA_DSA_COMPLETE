@@ -47,8 +47,8 @@ public class SinglyLinked_List {
             head = newNode;
             tail = newNode;
         } else {
-            newNode.next = tail;
-            tail = newNode;
+            tail.next = newNode;  // Link current tail to new node
+            tail = newNode;       // Update tail
         }
         //increase the size by 1
         size++;
@@ -131,8 +131,20 @@ public class SinglyLinked_List {
        mylist.insertathead(30);
        mylist.printlist();
 
-       mylist.insertathead(40);
+       mylist.insertattail(100);
        mylist.printlist();
+
+       mylist.insertattail(110);
+       mylist.printlist();
+
+       mylist.insertatmiddle(1,22);
+       mylist.printlist();
+
+       mylist.insertatmiddle(5,201);
+       mylist.printlist();
+
+       System.out.println(mylist.gethead());
+       System.out.println(mylist.gettail());
 
     }
 
