@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0322-coin-change) |
 | [0403-frog-jump](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0403-frog-jump) |
 | [0455-assign-cookies](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0455-assign-cookies) |
+| [0506-relative-ranks](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0506-relative-ranks) |
 | [0518-coin-change-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0518-coin-change-ii) |
 | [0704-binary-search](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0704-binary-search) |
 | [0835-image-overlap](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0835-image-overlap) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0023-merge-k-sorted-lists) |
+| [0506-relative-ranks](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0506-relative-ranks) |
 ## Merge Sort
 |  |
 | ------- |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [0455-assign-cookies](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0455-assign-cookies) |
+| [0506-relative-ranks](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0506-relative-ranks) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Geometry
 |  |
