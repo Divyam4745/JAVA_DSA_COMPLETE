@@ -118,7 +118,7 @@ public class SinglyLinked_List {
     }
 
     //DELETE NODE
-
+//    ...........Delete Head Node.......
     public void deleteHead(){
         if (head == null){
             System.out.println("ll is empity nothing will be deleted");
@@ -131,6 +131,64 @@ public class SinglyLinked_List {
         if (head==null){
             tail=null;
         }
+    }
+
+//    ............ Delete Tail Node..........
+
+    public void deletetail(){
+        if (head==null){
+            System.out.println("ll is emoty cann't be delete");
+            return;
+        }
+        //check for single node
+        if (head == tail){
+            head=null;
+            tail = null;
+            size=0;
+            return;
+        }
+        // for normal  1length wali ll
+        Node temp=head;
+        for (int i=-1;i<size-2;i++){
+            temp = temp.next;
+        }
+        //now temp is pointin g on the second last node of LL
+        temp.next=null;
+        tail = null;
+
+        // sie of tail
+        size--;
+    }
+    // Delete at Position
+
+    public  void  deleteatPosition(int position){
+        if (position< 1 || position>size+1){
+            System.out.println("Invalid position,cann't be delete node");
+            return;
+        }
+        if (position==1){
+            deleteHead();
+            return;
+        }
+        if (position == size){
+            deletetail();
+            return;
+        }
+        // Variable setup
+        Node prev = head;
+         // prev  ko position  -2  steps  move krunga  toh main deleteto node ke niche wali node pr pahuch jaunga
+         for (int i=0; i<=position-2;i++){
+             prev =prev.next;
+         }
+         Node curr = prev.next;
+         Node  forward=curr.next;
+
+         // main logic
+        prev.next=forward;
+        curr.next=null;
+
+        // size update
+        size--;
     }
 
     //Traversal the singly linked list....
@@ -202,6 +260,11 @@ public class SinglyLinked_List {
        mylist.printlist();
 
        mylist.deleteHead();
+       mylist.printlist();
+
+       mylist.deleteatPosition(2);
+       mylist.printlist();
+       mylist.deleteatPosition(1);
        mylist.printlist();
 
     }
