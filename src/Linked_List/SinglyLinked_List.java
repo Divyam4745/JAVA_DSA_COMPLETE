@@ -117,6 +117,22 @@ public class SinglyLinked_List {
         return false;
     }
 
+    //DELETE NODE
+
+    public void deleteHead(){
+        if (head == null){
+            System.out.println("ll is empity nothing will be deleted");
+            return;
+        }
+        //Main logic
+        head=head.next;
+        size--;
+        //be cotious -> check wearther head is not null if null point null at the head point
+        if (head==null){
+            tail=null;
+        }
+    }
+
     //Traversal the singly linked list....
     public void printlist(){
         Node temp=head;
@@ -180,9 +196,12 @@ public class SinglyLinked_List {
        System.out.println("head data: "+mylist.gethead());
        System.out.println("tail data: "+mylist.gettail());
 
-       System.out.println("Position of  200 is " + mylist.findPosition(100));
+       System.out.println("Position of  100 is " + mylist.findPosition(100));
 
        mylist.updaatedposition(4,50);
+       mylist.printlist();
+
+       mylist.deleteHead();
        mylist.printlist();
 
     }
