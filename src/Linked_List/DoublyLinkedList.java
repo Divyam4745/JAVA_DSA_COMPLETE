@@ -98,5 +98,8 @@ public class DoublyLinkedList {
         myList.insertAtHead(100);
         myList.printlist();
 
+        myList.insertAtTail(200);
+        myList.printlist();
+
     }
 }
