@@ -35,24 +35,23 @@ public class DoublyLinkedList {
             head=newNode;
         }
         size++;
-//    }
+    }
 //    // INSERT AT TAIL
-//    public void insertAtTail(int data){
-//        Node newNode=new Node(data);
-//        if (head==null&&tail==null){
-//            head=newNode;
-//            tail=newNode;
-//        }else{
-//            newNode.Prev=tail;
-//            tail.next=newNode;
-//            tail=newNode;
-//        }
-//        size++;
-//
+    public void insertAtTail(int data){
+        Node newNode=new Node(data);
+        if (head==null&&tail==null){
+            head=newNode;
+            tail=newNode;
+        }else{
+            newNode.Prev=tail;
+            tail.next=newNode;
+            tail=newNode;
+        }
+        size++;
+
     }
 
-//
-//    static void main(String[] args) {
-//
-//    }
+    static void main(String[] args) {
+
+    }
 }
