@@ -24,17 +24,17 @@ public class DoublyLinkedList {
         this.size = 0;
     }
           // INSERT AT HEAD
-//    public void insertAtHead(int data){
-//        Node newNode=new Node(data);
-//        if (head==null && tail==null){
-//            head=newNode;
-//            tail=newNode;
-//        }else {
-//            newNode.next=head;
-//            head.Prev=newNode;
-//            head=newNode;
-//        }
-//        size++;
+    public void insertAtHead(int data){
+        Node newNode=new Node(data);
+        if (head==null && tail==null){
+            head=newNode;
+            tail=newNode;
+        }else {
+            newNode.next=head;
+            head.Prev=newNode;
+            head=newNode;
+        }
+        size++;
 //    }
 //    // INSERT AT TAIL
 //    public void insertAtTail(int data){
