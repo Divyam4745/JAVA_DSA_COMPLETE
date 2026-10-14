@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-divisor-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1025-divisor-game) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1401-circle-and-rectangle-overlapping) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3870-count-commas-in-range](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3870-count-commas-in-range) |
@@ -250,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Divide and Conquer
 |  |
