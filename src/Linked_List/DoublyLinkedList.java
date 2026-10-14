@@ -49,10 +49,10 @@ public class DoublyLinkedList {
 //        }
 //        size++;
 //
-//    }
-
-
-    static void main(String[] args) {
-
     }
+
+//
+//    static void main(String[] args) {
+//
+//    }
 }
