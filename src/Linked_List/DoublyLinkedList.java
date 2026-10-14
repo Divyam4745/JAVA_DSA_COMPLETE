@@ -48,8 +48,40 @@ public class DoublyLinkedList {
             tail=newNode;
         }
         size++;
-
     }
+
+    //Insert At the exact position
+    public void InsertAtposition(int position,int data){
+        if (position<1 || position>size+1){
+            System.out.println("Invaild position not possible to insert ");
+        }
+        if (position==1){
+            insertAtHead(data);
+            return;
+        }
+        if (position==size+1){
+            insertAtTail(data);
+            return;
+        }
+
+        // insert at the exact position
+        Node temp=head;
+        for (int i=0;i<position-2;i++){
+            temp=temp.next;
+        }
+        //ab mera pura node prevNode pr aa chuka hai
+        Node prevNode=temp;
+        Node nextNode=prevNode.next;
+        Node currNode=new Node(data);
+
+        //ab change links
+        currNode.Prev=prevNode;
+        prevNode.next=currNode;
+        currNode.next=nextNode;
+        nextNode=currNode;
+        size++;
+    }
+
 
     static void main(String[] args) {
 
