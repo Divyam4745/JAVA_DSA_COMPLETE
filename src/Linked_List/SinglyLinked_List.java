@@ -264,6 +264,7 @@ public class SinglyLinked_List {
 
        mylist.deleteatPosition(2);
        mylist.printlist();
+
        mylist.deleteatPosition(1);
        mylist.printlist();
 
