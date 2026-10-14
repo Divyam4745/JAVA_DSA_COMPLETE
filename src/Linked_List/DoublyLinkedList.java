@@ -82,8 +82,21 @@ public class DoublyLinkedList {
         size++;
     }
 
+    //Traversal the singly linked list....
+    public void printlist(){
+        Node temp=head;
+        while (temp!=null){
+            System.out.print(temp.data + "->");
+            temp=temp.next;
+        }
+        System.out.println();
+    }
 
     static void main(String[] args) {
+        DoublyLinkedList myList=new DoublyLinkedList();
+
+        myList.insertAtHead(100);
+        myList.printlist();
 
     }
 }
