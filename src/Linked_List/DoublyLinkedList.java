@@ -99,9 +99,7 @@ public class DoublyLinkedList {
             System.out.print("<-" + temp.data );
             temp=temp.Prev;
         }
-        System.out.println(
-
-        );
+        System.out.println();
     }
 
     static void main(String[] args) {
