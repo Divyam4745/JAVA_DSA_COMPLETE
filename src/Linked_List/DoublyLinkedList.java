@@ -118,6 +118,26 @@ public class DoublyLinkedList {
         return false;
     }
 
+    //DELETE IN LL
+
+    public void deleteAtHead(){
+        if (head==null){
+            System.out.println("No Need To Delete");
+            return;
+        }
+        //single node
+        if (head==tail){
+            head=null;
+            tail=null;
+            return;
+        }
+        //if ll is more than one
+        head=head.next;
+        head.Prev=null;
+        //size uodate
+        size--;
+    }
+
     static void main(String[] args) {
         DoublyLinkedList myList=new DoublyLinkedList();
 
@@ -139,9 +159,16 @@ public class DoublyLinkedList {
         myList.insertAtposition(3,45);
         myList.printlist();
 
-        myList.reverseprint();
+//        myList.reverseprint();
+//
+//        System.out.println("Found or not: " + myList.searchInLL( 55));
 
-        System.out.println("Found or not: " + myList.searchInLL( 55));
+        // .........DELETE THE NODE...........
+        myList.deleteAtHead();
+        myList.printlist();
+        // ............AGAIN DELETE..............
+        myList.deleteAtHead();
+        myList.printlist();
 
     }
 }
