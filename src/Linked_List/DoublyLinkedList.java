@@ -51,7 +51,7 @@ public class DoublyLinkedList {
     }
 
     //Insert At the exact position
-    public void InsertAtposition(int position,int data){
+    public void insertAtposition(int position,int data){
         if (position<1 || position>size+1){
             System.out.println("Invaild position not possible to insert ");
         }
@@ -92,14 +92,40 @@ public class DoublyLinkedList {
         System.out.println();
     }
 
+    // if I want to print reverse value
+    public void reverseprint(){
+        Node temp=tail;
+        while (temp!=null){
+            System.out.print("<-" + temp.data );
+            temp=temp.Prev;
+        }
+        System.out.println(
+
+        );
+    }
+
     static void main(String[] args) {
         DoublyLinkedList myList=new DoublyLinkedList();
 
         myList.insertAtHead(100);
         myList.printlist();
 
-        myList.insertAtTail(200);
+        myList.insertAtHead(200);
         myList.printlist();
+
+        myList.insertAtTail(300);
+        myList.printlist();
+
+        myList.insertAtTail(400);
+        myList.printlist();
+
+        myList.insertAtTail(500);
+        myList.printlist();
+
+        myList.insertAtposition(3,45);
+        myList.printlist();
+
+        myList.reverseprint();
 
     }
 }
