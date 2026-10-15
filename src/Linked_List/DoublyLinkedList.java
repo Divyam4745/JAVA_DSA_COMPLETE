@@ -102,6 +102,22 @@ public class DoublyLinkedList {
         System.out.println();
     }
 
+    public boolean searchInLL(int target){
+        if (head==null){
+            System.out.println("invalid search it is not possible");
+            return false;
+        }
+        Node temp= head;
+        while(temp!=null){
+            if (temp.data==target){
+                return true;
+            }else {
+                temp=temp.next;
+            }
+        }
+        return false;
+    }
+
     static void main(String[] args) {
         DoublyLinkedList myList=new DoublyLinkedList();
 
@@ -124,6 +140,8 @@ public class DoublyLinkedList {
         myList.printlist();
 
         myList.reverseprint();
+
+        System.out.println("Found or not: " + myList.searchInLL( 55));
 
     }
 }
