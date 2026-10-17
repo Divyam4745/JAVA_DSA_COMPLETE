@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0040-combination-sum-ii) |
 | [0053-maximum-subarray](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0053-maximum-subarray) |
 | [0059-spiral-matrix-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0059-spiral-matrix-ii) |
+| [0064-minimum-path-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0064-minimum-path-sum) |
 | [0090-subsets-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0090-subsets-ii) |
 | [0120-triangle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0032-longest-valid-parentheses) |
 | [0053-maximum-subarray](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0053-maximum-subarray) |
+| [0064-minimum-path-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0097-interleaving-string) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0059-spiral-matrix-ii) |
+| [0064-minimum-path-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0064-minimum-path-sum) |
 | [0174-dungeon-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0174-dungeon-game) |
 | [0835-image-overlap](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0835-image-overlap) |
 ## Greedy
