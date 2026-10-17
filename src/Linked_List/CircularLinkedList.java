@@ -1,0 +1,94 @@
+
+package Linked_List;
+
+public class CircularLinkedList {
+
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    private Node head;
+    private Node tail;
+    private int size;
+
+    // Constructor
+    public CircularLinkedList() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
+
+    // Insertion at head
+    public void insertionAtHead(int data) {
+        Node newNode = new Node(data);
+
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+            tail.next = head;
+        } else {
+            newNode.next = head;
+            head = newNode;
+            tail.next = head;
+        }
+
+        size++;
+    }
+    // INSERT AT THE TAIL
+    public void insertAttail(int data){
+        Node newNode=new Node(data);
+        if (head==null){
+            head=newNode;
+            tail=newNode;
+            // update tail circular
+            tail.next=head;
+        }
+        else {
+            tail.next=newNode;
+            tail=newNode;
+            //update Node Circular
+            tail.next=head;
+        }
+        size++;
+    }
+
+    // Traversal of circular linked list
+    public void printList() {
+        if (head == null) {
+            System.out.println("List is empty");
+            return;
+        }
+
+        Node temp = head;
+
+        do {
+            System.out.print(temp.data + " --> ");
+            temp = temp.next;
+        } while (temp != head);
+
+        System.out.println("(back to head)");
+    }
+
+    public static void main(String[] args) {
+            CircularLinkedList myList =
+                    new CircularLinkedList();
+            // INSERT AT HEAD
+        myList.insertionAtHead(4);
+        myList.insertionAtHead(3);
+        myList.insertionAtHead(2);
+        myList.insertionAtHead(1);
+        myList.printList();
+
+//        INSERT AT TAIL
+        myList.insertAttail(5);
+        myList.insertAttail(6);
+        myList.insertAttail(7);
+        myList.printList();
+    }
+}
