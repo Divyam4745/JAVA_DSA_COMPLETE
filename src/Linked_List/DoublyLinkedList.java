@@ -129,12 +129,41 @@ public class DoublyLinkedList {
         if (head==tail){
             head=null;
             tail=null;
+            size =0;
             return;
         }
         //if ll is more than one
         head=head.next;
         head.Prev=null;
         //size uodate
+        size--;
+    }
+
+    //DELETE FROM TAIL
+    public void deleteAtTail(){
+        if (head==null){
+            System.out.println("No Need To Delete");
+            return;
+        }
+        //single node
+        if (head==tail){
+            head=null;
+            tail=null;
+            size =0;
+            return;
+        }
+        //LL have more than 1 node
+        Node currNode=tail;
+        Node prevNode=tail.Prev;
+        prevNode.next=tail;
+
+        //Link Change
+            prevNode.next=null;
+            currNode.Prev=null;
+            //tail update
+            tail=prevNode;
+
+        // size update
         size--;
     }
 
@@ -168,6 +197,11 @@ public class DoublyLinkedList {
         myList.printlist();
         // ............AGAIN DELETE..............
         myList.deleteAtHead();
+        myList.printlist();
+
+        myList.deleteAtTail();
+        myList.printlist();
+        myList.deleteAtTail();
         myList.printlist();
 
     }
