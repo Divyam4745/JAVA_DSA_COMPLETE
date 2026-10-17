@@ -166,6 +166,34 @@ public class DoublyLinkedList {
         // size update
         size--;
     }
+    public void deleteAtPosition(int position){
+        if (position<1 || position>size+1){
+            System.out.println("no need to delete");
+            return;
+        }
+        if (position==1){
+            deleteAtHead();
+            return;
+        }
+        if (position==size){
+            deleteAtTail();
+            return;
+        }
+        //variable setup
+        Node currNode=head;
+        for (int i=0;i<position-1;i++){
+            currNode=currNode.next;
+        }
+        Node prevNode=currNode.Prev;
+        Node nextNode=currNode.next;
+
+
+        prevNode.next=nextNode;
+        nextNode.Prev=prevNode;
+        currNode.next=null;
+        currNode.Prev=null;
+        size--;
+    }
 
     static void main(String[] args) {
         DoublyLinkedList myList=new DoublyLinkedList();
@@ -202,6 +230,9 @@ public class DoublyLinkedList {
         myList.deleteAtTail();
         myList.printlist();
         myList.deleteAtTail();
+        myList.printlist();
+
+        myList.deleteAtPosition(3);
         myList.printlist();
 
     }
