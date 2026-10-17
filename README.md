@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0128-longest-consecutive-sequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0136-single-number) |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0198-house-robber) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0012-integer-to-roman) |
 | [0089-gray-code](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0096-unique-binary-search-trees) |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [0233-number-of-digit-one](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0233-number-of-digit-one) |
 | [0509-fibonacci-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0509-fibonacci-number) |
 | [1025-divisor-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1025-divisor-game) |
@@ -322,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Stack
 |  |
@@ -429,4 +433,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
