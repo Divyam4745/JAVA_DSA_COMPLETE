@@ -57,6 +57,34 @@ public class CircularLinkedList {
         }
         size++;
     }
+    // INSERT AT THE POSITION
+    public void insertatposition(int position,int data){
+        if (position<1 || position>size+1){
+            System.out.println("Invalid position no need to insert");
+            return;
+        }
+        if (position==1){
+            insertionAtHead(data);
+            return;
+        }
+        if (position==size+1){
+            insertAttail(data);
+            return;
+        }
+        Node newNode=new Node(data);
+        Node prevNode=head;
+        for (int i=0;i<position-2;i++){
+            prevNode=prevNode.next;
+        }
+        Node currNode=newNode;
+        Node nextNode=prevNode.next;
+
+        prevNode.next=currNode;
+        currNode.next=nextNode;
+
+        size++;
+
+    }
 
     // Traversal of circular linked list
     public void printList() {
@@ -89,6 +117,10 @@ public class CircularLinkedList {
         myList.insertAttail(5);
         myList.insertAttail(6);
         myList.insertAttail(7);
+        myList.printList();
+
+        // INSERT AT ANY POSITION
+        myList.insertatposition(2,10);
         myList.printList();
     }
 }
