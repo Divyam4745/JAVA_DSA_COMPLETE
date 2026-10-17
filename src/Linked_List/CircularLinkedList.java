@@ -86,6 +86,30 @@ public class CircularLinkedList {
 
     }
 
+    public boolean searching(int target){
+        if (head==null){
+            return false;
+        }
+        Node temp=head;
+        do {
+            if (temp.data==target){
+                return true;
+            }
+            temp=temp.next;
+        }while(temp!=head);
+        return false;
+    }
+    public void deleteatHead(){
+        if (head== null){
+            System.out.println("no nees to delete it is not possible");
+            return;
+        }else {
+            head=head.next;
+            size--;
+
+        }
+    }
+
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -122,5 +146,9 @@ public class CircularLinkedList {
         // INSERT AT ANY POSITION
         myList.insertatposition(2,10);
         myList.printList();
+
+        //SEARCHING TARGET
+        myList.searching(3);
+
     }
 }
