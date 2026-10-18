@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0053-maximum-subarray) |
 | [0059-spiral-matrix-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0059-spiral-matrix-ii) |
 | [0064-minimum-path-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0068-text-justification) |
 | [0090-subsets-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0090-subsets-ii) |
 | [0120-triangle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0038-count-and-say) |
 | [0065-valid-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0065-valid-number) |
+| [0068-text-justification](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0068-text-justification) |
 | [0091-decode-ways](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0097-interleaving-string) |
 | [0132-palindrome-partitioning-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0132-palindrome-partitioning-ii) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0059-spiral-matrix-ii) |
+| [0068-text-justification](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0068-text-justification) |
 ## String Matching
 |  |
 | ------- |
