@@ -118,8 +118,54 @@ public class CircularLinkedList {
         //Discount deleted node
         temp.next=null;
         size--;
-
         }
+        public void deleteAtTail(){
+        // for null node
+            if (head==null){
+                System.out.println("not possible");
+            }
+            if (head==tail){
+                head=null;
+                tail=null;
+                size=0;
+                return;
+            }
+            Node prevNode=head;
+            for (int i=0;i<=size-2;i++){
+                prevNode=prevNode.next;
+            }
+            prevNode.next=head;
+            tail.next=null;
+            tail=prevNode;
+            size--;
+        }
+
+        //Delete st the exsct position
+    public void deleteAtExactPOsition(int position){
+        if (head==null){
+            System.out.println("INvalid position ");
+            return;
+        }
+        if (position == 1)
+        {
+            deleteatHead();
+            return;
+        }
+        if (position==size){
+            deleteAtTail();
+            return;
+        }
+        // in between position
+        Node prevNode= head;
+        for (int i=0;i<=size-2;i++){
+            prevNode=prevNode.next;
+        }
+        Node currNode=prevNode.next;
+        Node nextNode=currNode.next;
+        prevNode.next=nextNode;
+        currNode.next=null;
+        size--;
+    }
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
