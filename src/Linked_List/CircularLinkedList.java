@@ -131,7 +131,7 @@ public class CircularLinkedList {
                 return;
             }
             Node prevNode=head;
-            for (int i=0;i<=size-2;i++){
+            for (int i=0;i<size-2;i++){
                 prevNode=prevNode.next;
             }
             prevNode.next=head;
@@ -141,9 +141,9 @@ public class CircularLinkedList {
         }
 
         //Delete st the exsct position
-    public void deleteAtExactPOsition(int position){
+    public void deleteAtExactPosition(int position){
         if (head==null){
-            System.out.println("INvalid position ");
+            System.out.println("Invalid position ");
             return;
         }
         if (position == 1)
@@ -157,7 +157,7 @@ public class CircularLinkedList {
         }
         // in between position
         Node prevNode= head;
-        for (int i=0;i<=size-2;i++){
+        for (int i=0;i<size-2;i++){
             prevNode=prevNode.next;
         }
         Node currNode=prevNode.next;
@@ -208,6 +208,14 @@ public class CircularLinkedList {
 
         // delete the node
         myList.deleteatHead();
+        myList.printList();
+
+        // delete the tail
+        myList.deleteAtTail();
+        myList.printList();
+
+        // delete at the exact position
+        myList.deleteAtExactPosition(6);
         myList.printList();
 
     }
