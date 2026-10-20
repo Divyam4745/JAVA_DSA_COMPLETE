@@ -101,15 +101,25 @@ public class CircularLinkedList {
     }
     public void deleteatHead(){
         if (head== null){
-            System.out.println("no nees to delete it is not possible");
+            System.out.println("no need to delete it is not possible");
             return;
-        }else {
-            head=head.next;
-            size--;
+        }
+        //if it has single node
+        if (head == tail) {
+            head=null;
+            tail=null;
+            size=0;
+            return;
+        }
+        Node temp=head;
+        head=head.next;
+        //maintain circular connection
+        tail.next=head;
+        //Discount deleted node
+        temp.next=null;
+        size--;
 
         }
-    }
-
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -149,6 +159,10 @@ public class CircularLinkedList {
 
         //SEARCHING TARGET
         myList.searching(3);
+
+        // delete the node
+        myList.deleteatHead();
+        myList.printList();
 
     }
 }
