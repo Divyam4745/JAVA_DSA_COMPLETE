@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
 | [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0151-reverse-words-in-a-string) |
 | [0171-excel-sheet-column-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0171-excel-sheet-column-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0392-is-subsequence) |
@@ -480,4 +482,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
