@@ -1,36 +1,39 @@
+
 class Solution {
     public int minCut(String s) {
         int n = s.length();
         if (n <= 1) return 0;
 
-        boolean[][] pal = new boolean[n][n];
-        int[] dp = new int[n];
+        boolean[][] palindrome = new boolean[n][n];
+        int[] dp = new int[n + 1];
 
-        // Precompute palindromes
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = i; j < n; j++) {
-                if (s.charAt(i) == s.charAt(j) &&
-                    (j - i <= 2 || pal[i + 1][j - 1])) {
-                    pal[i][j] = true;
-                }
+        // Maximum cuts for a prefix of length i
+        for (int i = 0; i <= n; i++) {
+            dp[i] = i - 1;
+        }
+
+        // Expand palindromes by their ending position
+        for (int center = 0; center < n; center++) {
+
+            // Odd-length palindromes
+            for (int l = center, r = center;
+                 l >= 0 && r < n && s.charAt(l) == s.charAt(r);
+                 l--, r++) {
+
+                palindrome[l][r] = true;
+                dp[r + 1] = Math.min(dp[r + 1], dp[l] + 1);
+            }
+
+            // Even-length palindromes
+            for (int l = center, r = center + 1;
+                 l >= 0 && r < n && s.charAt(l) == s.charAt(r);
+                 l--, r++) {
+
+                palindrome[l][r] = true;
+                dp[r + 1] = Math.min(dp[r + 1], dp[l] + 1);
             }
         }
 
-        // Calculate minimum cuts
-        for (int i = 0; i < n; i++) {
-            if (pal[0][i]) {
-                dp[i] = 0;
-            } else {
-                dp[i] = i;
-
-                for (int j = 0; j < i; j++) {
-                    if (pal[j + 1][i]) {
-                        dp[i] = Math.min(dp[i], dp[j] + 1);
-                    }
-                }
-            }
-        }
-
-        return dp[n - 1];
+        return dp[n];
     }
 }
