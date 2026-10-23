@@ -3,38 +3,57 @@ class Solution {
     public int myAtoi(String s) {
         int i = 0;
         int n = s.length();
-        int sign = 1;
-        long num = 0;
 
-        // Step 1: Skip leading whitespace
+        // 1. Skip leading spaces
         while (i < n && s.charAt(i) == ' ') {
             i++;
         }
 
-        // Step 2: Determine the sign
+        // 2. Determine sign
+        int sign = 1;
+
         if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
-            sign = (s.charAt(i) == '-') ? -1 : 1;
+            if (s.charAt(i) == '-') {
+                sign = -1;
+            }
             i++;
         }
 
-        // Step 3: Convert digits and check overflow
-        while (i < n && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-            int digit = s.charAt(i) - '0';
+        // 3. Accumulate digits as a negative number
+        int result = 0;
+        int limit = (sign == -1)
+                ? Integer.MIN_VALUE
+                : -Integer.MAX_VALUE;
+        int multMin = limit / 10;
 
-            num = num * 10 + digit;
+        while (i < n) {
+            char c = s.charAt(i);
 
-            // Step 4: Clamp to 32-bit integer range
-            if (sign * num <= Integer.MIN_VALUE) {
-                return Integer.MIN_VALUE;
+            if (c < '0' || c > '9') {
+                break;
             }
 
-            if (sign * num >= Integer.MAX_VALUE) {
-                return Integer.MAX_VALUE;
+            int digit = c - '0';
+
+            if (result < multMin) {
+                return sign == -1
+                        ? Integer.MIN_VALUE
+                        : Integer.MAX_VALUE;
             }
 
+            result *= 10;
+
+            if (result < limit + digit) {
+                return sign == -1
+                        ? Integer.MIN_VALUE
+                        : Integer.MAX_VALUE;
+            }
+
+            result -= digit;
             i++;
         }
 
-        return (int) (sign * num);
+        // Convert negative accumulation to the correct result
+        return sign == -1 ? result : -result;
     }
 }
