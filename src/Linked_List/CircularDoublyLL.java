@@ -110,6 +110,27 @@ public class CircularDoublyLL {
         }
     }
 
+    //DELETE FROM THE TAIL
+    public void deleteatrail(){
+        if (head==null){
+            System.out.println("no need to delete");
+            return;
+        }
+        if (head==tail){
+            head=null;
+            tail=null;
+            size=0;
+            return;
+        }else {
+            Node prevNode=tail.Prev;
+            tail.Prev=null;
+            tail.next=null;
+            head.Prev=prevNode;
+            prevNode.next=head;
+            size--;
+        }
+    }
+
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -154,6 +175,10 @@ public class CircularDoublyLL {
 
         //delete at the head
         mylist.deleteathead();
+        mylist.printList();
+
+//      DELETE FROM TAIL
+        mylist.deleteatrail();
         mylist.printList();
 
     }
