@@ -88,8 +88,28 @@ public class CircularDoublyLL {
         nextNode.Prev=currNode;
         currNode.next=nextNode;
         size++;
-
     }
+    //DELETE AT THE HEAD
+    public void deleteathead(){
+        if (head==null){
+            System.out.println("no need to delete");
+            return;
+        }
+        if (head==tail){
+            head=null;
+            tail=null;
+            size=0;
+        }else {
+            Node temp=head;
+            head=head.next;
+            temp.next=null;
+            temp.Prev=null;
+            head.Prev=tail;
+            tail.next=head;
+            size--;
+        }
+    }
+
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -130,6 +150,10 @@ public class CircularDoublyLL {
 
         // insert at position
         mylist.insertatposition(3,10);
+        mylist.printList();
+
+        //delete at the head
+        mylist.deleteathead();
         mylist.printList();
 
     }
