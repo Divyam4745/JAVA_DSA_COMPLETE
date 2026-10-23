@@ -60,6 +60,34 @@ public class CircularDoublyLL {
             tail=newNode;
             size++;
         }
+    }
+    //insert at the position
+    public void insertatposition(int position,int data){
+        if (position<1||position>size+1){
+            System.out.println("not possible to insert");
+            return;
+        }
+        // if position is 1
+        if (position== 1){
+            insertAthead(data);
+            return;
+        }
+        if (position==size+1){
+            insertattail(data);
+            return;
+        }
+        Node newNode=new Node(data);
+        Node prevNode=head;
+        for (int i=0;i<position-2;i++){
+            prevNode=prevNode.next;
+        }
+        Node currNode=new Node(data);
+        Node nextNode=prevNode.next;
+        prevNode.next=currNode;
+        currNode.Prev=prevNode;
+        nextNode.Prev=currNode;
+        currNode.next=nextNode;
+        size++;
 
     }
     // Traversal of circular linked list
@@ -98,6 +126,10 @@ public class CircularDoublyLL {
         mylist.insertattail(6);
         mylist.insertattail(7);
         mylist.insertattail(8);
+        mylist.printList();
+
+        // insert at position
+        mylist.insertatposition(3,10);
         mylist.printList();
 
     }
