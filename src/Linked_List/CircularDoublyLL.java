@@ -173,12 +173,6 @@ public class CircularDoublyLL {
 
         System.out.println("(back to head)");
     }
-
-
-
-
-
-
     static void main(String[] args) {
         CircularDoublyLL mylist=new CircularDoublyLL();
          //insert at head
