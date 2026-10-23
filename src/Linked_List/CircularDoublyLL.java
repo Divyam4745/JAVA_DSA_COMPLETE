@@ -131,6 +131,32 @@ public class CircularDoublyLL {
         }
     }
 
+    //DELETE FROM POSITION
+    public void deleteatposition(int position){
+        if (position<1 || position>size+1){
+            System.out.println("not possible to delete");
+            return;
+        }
+        if (position==1){
+            deleteathead();
+            return;
+        }
+        if (position==size){
+            deleteatrail();
+            return;
+        }
+        Node prevNode=head;
+        for (int i=0;i<position-2;i++){
+            prevNode=prevNode.next;
+        }
+        Node currNode= prevNode.next;
+        Node nextNode=currNode.next;
+        prevNode.next=nextNode;
+        currNode.next=null;
+        size--;
+
+    }
+
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -179,6 +205,10 @@ public class CircularDoublyLL {
 
 //      DELETE FROM TAIL
         mylist.deleteatrail();
+        mylist.printList();
+
+        // DELETE AT THE EXACT POSITION
+        mylist.deleteatposition(2);
         mylist.printList();
 
     }
