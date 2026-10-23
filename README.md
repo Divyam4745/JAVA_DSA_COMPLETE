@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3592-inverse-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3592-inverse-coin-change) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Linked List
 |  |
 | ------- |
