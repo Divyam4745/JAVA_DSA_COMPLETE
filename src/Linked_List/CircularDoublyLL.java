@@ -41,6 +41,27 @@ public class CircularDoublyLL {
             size++;
         }
     }
+
+    // INSERT AT TAIL
+    public void insertattail(int data){
+        Node newNode=new Node(data);
+        if (head==null){
+            head=newNode;
+            tail=newNode;
+
+            tail.next=head;
+            head.Prev=tail;
+        }
+        else {
+            newNode.Prev=tail;
+            newNode.next=head;
+            tail.next=newNode;
+            head.Prev=newNode;
+            tail=newNode;
+            size++;
+        }
+
+    }
     // Traversal of circular linked list
     public void printList() {
         if (head == null) {
@@ -65,7 +86,7 @@ public class CircularDoublyLL {
 
     static void main(String[] args) {
         CircularDoublyLL mylist=new CircularDoublyLL();
-
+         //insert at head
         mylist.insertAthead(1);
        mylist.insertAthead(2);
         mylist.insertAthead(3);
@@ -73,7 +94,11 @@ public class CircularDoublyLL {
         mylist.insertAthead(5);
         mylist.printList();
 
-
+//        insert at tail
+        mylist.insertattail(6);
+        mylist.insertattail(7);
+        mylist.insertattail(8);
+        mylist.printList();
 
     }
 }
