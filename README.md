@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0206-reverse-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0455-assign-cookies) |
+| [0876-middle-of-the-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0876-middle-of-the-linked-list) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Floyd's Cycle Finding Algorithm
 |  |
