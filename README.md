@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3592-inverse-coin-change](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3592-inverse-coin-change) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-divisor-game](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1025-divisor-game) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2409-count-days-spent-together](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2409-count-days-spent-together) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2409-count-days-spent-together](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3498-reverse-degree-of-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3498-reverse-degree-of-a-string) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3863-minimum-operations-to-sort-a-string) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0338-counting-bits) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Linked List
 |  |
 | ------- |
@@ -278,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0206-reverse-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -292,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0455-assign-cookies) |
+| [0876-middle-of-the-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0876-middle-of-the-linked-list) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Floyd's Cycle Finding Algorithm
 |  |
