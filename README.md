@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0290-word-pattern) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [0771-jewels-and-stones](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0771-jewels-and-stones) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0290-word-pattern) |
 | [0389-find-the-difference](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0392-is-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0678-valid-parenthesis-string) |
