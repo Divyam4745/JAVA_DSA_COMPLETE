@@ -1,3 +1,4 @@
+
 class Solution {
     public int romanToInt(String s) {
         int result = 0;
@@ -15,12 +16,7 @@ class Solution {
                 default -> 0;
             };
 
-            if (curr < prev) {
-                result -= curr;
-            } else {
-                result += curr;
-            }
-
+            result += (curr < prev) ? -curr : curr;
             prev = curr;
         }
 
