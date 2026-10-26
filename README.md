@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0328-odd-even-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0876-middle-of-the-linked-list) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2181-merge-nodes-in-between-zeros) |
 ## Two Pointers
 |  |
 | ------- |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0059-spiral-matrix-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0059-spiral-matrix-ii) |
 | [0068-text-justification](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0068-text-justification) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2181-merge-nodes-in-between-zeros) |
 | [3498-reverse-degree-of-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3498-reverse-degree-of-a-string) |
 ## String Matching
 |  |
