@@ -1,30 +1,21 @@
 
 class Solution {
     public int myAtoi(String s) {
-        int i = 0;
-        int n = s.length();
+        int i = 0, n = s.length();
 
-        // 1. Skip leading spaces
+        // Skip leading spaces
         while (i < n && s.charAt(i) == ' ') {
             i++;
         }
 
-        // 2. Determine sign
+        // Handle sign
         int sign = 1;
-
         if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
-            if (s.charAt(i) == '-') {
-                sign = -1;
-            }
-            i++;
+            sign = (s.charAt(i++) == '-') ? -1 : 1;
         }
 
-        // 3. Accumulate digits as a negative number
+        // Convert digits with overflow protection
         int result = 0;
-        int limit = (sign == -1)
-                ? Integer.MIN_VALUE
-                : -Integer.MAX_VALUE;
-        int multMin = limit / 10;
 
         while (i < n) {
             char c = s.charAt(i);
@@ -35,25 +26,14 @@ class Solution {
 
             int digit = c - '0';
 
-            if (result < multMin) {
-                return sign == -1
-                        ? Integer.MIN_VALUE
-                        : Integer.MAX_VALUE;
+            if (result > (Integer.MAX_VALUE - digit) / 10) {
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
 
-            result *= 10;
-
-            if (result < limit + digit) {
-                return sign == -1
-                        ? Integer.MIN_VALUE
-                        : Integer.MAX_VALUE;
-            }
-
-            result -= digit;
+            result = result * 10 + digit;
             i++;
         }
 
-        // Convert negative accumulation to the correct result
-        return sign == -1 ? result : -result;
+        return result * sign;
     }
 }
