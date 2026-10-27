@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0146-lru-cache) |
 | [0149-max-points-on-a-line](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0149-max-points-on-a-line) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0169-majority-element) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0234-palindrome-linked-list) |
@@ -528,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0208-implement-trie-prefix-tree) |
 ## Trie
 |  |
@@ -538,4 +541,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
