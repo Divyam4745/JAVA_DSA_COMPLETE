@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3498-reverse-degree-of-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3498-reverse-degree-of-a-string) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3863-minimum-operations-to-sort-a-string) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0023-merge-k-sorted-lists) |
 | [0506-relative-ranks](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0506-relative-ranks) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Merge Sort
 |  |
 | ------- |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0133-clone-graph) |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 ## Counting
 |  |
 | ------- |
@@ -562,4 +565,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0146-lru-cache) |
+## Shortest Path
+|  |
+| ------- |
+| [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
 <!---LeetCode Topics End-->
