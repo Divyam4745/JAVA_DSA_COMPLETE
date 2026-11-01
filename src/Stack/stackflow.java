@@ -50,6 +50,19 @@ public class stackflow {
         public boolean isEmpty() {
             return top == -1;
         }
+        // Get stack size
+        public int size() {
+            return top + 1;
+        }
+        public void printStack() {
+            if (isEmpty()) {
+                System.out.println("Stack is empty");
+                return;
+            }
+            for (int i = top; i >= 0; i--) {
+                System.out.print(arr[i]+ ",");
+            }
+        }
     }
     static void main(String[] args) {
         Deque<Integer> st=new ArrayDeque<>();
@@ -59,10 +72,11 @@ public class stackflow {
         p1.push(20);
         p1.push(30);
 
-        System.out.println("Top element: " + p1.peek());
-        System.out.println("Removed: " + p1.pop());
-        System.out.println("Removed: " + p1.pop());
-        System.out.println("Top element: " + p1.peek());
+//        System.out.println("Top element: " + p1.peek());
+//        System.out.println("Removed: " + p1.pop());
+//        System.out.println("Removed: " + p1.pop());
+//        System.out.println("Top element: " + p1.peek());
+        p1.printStack();
 
 /*
 
