@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3665-twisted-mirror-path-count) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3886-sum-of-sortable-integers) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2409-count-days-spent-together](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2409-count-days-spent-together) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3723-maximize-sum-of-squares-of-digits) |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3870-count-commas-in-range](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3870-count-commas-in-range) |
