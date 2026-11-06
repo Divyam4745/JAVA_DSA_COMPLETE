@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1401-circle-and-rectangle-overlapping](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2409-count-days-spent-together](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2409-count-days-spent-together) |
+| [3280-convert-date-to-binary](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3280-convert-date-to-binary) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1769-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/1769-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2409-count-days-spent-together](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [3280-convert-date-to-binary](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3280-convert-date-to-binary) |
 | [3498-reverse-degree-of-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3498-reverse-degree-of-a-string) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3863-minimum-operations-to-sort-a-string](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3863-minimum-operations-to-sort-a-string) |
