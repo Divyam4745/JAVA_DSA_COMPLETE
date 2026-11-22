@@ -626,4 +626,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Divyam4745/JAVA_DSA_COMPLETE/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
